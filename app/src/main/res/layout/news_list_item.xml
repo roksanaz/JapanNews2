@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingEnd="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingStart="16dp">
+
+    <TextView
+        android:id="@+id/section_name_textv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="section"
+        android:textAllCaps="true"
+        android:textColor="#1a237e"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/web_publication_date_textv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="date"
+        android:textColor="#78909c"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/author_textv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="author"
+        android:textColor="#6200ea"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/web_title_textv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:text="title"
+        android:textColor="#37474f"
+        android:textSize="18sp" />
+
+</LinearLayout>
